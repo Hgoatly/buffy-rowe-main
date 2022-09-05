@@ -1,0 +1,11 @@
+h1 {
+    color:#ff9718;
+}
+
+body {
+    overflow-x:hidden;
+}
+.nav-link {
+    color: #5f7c8d !important;
+    font-size: large;
+}
