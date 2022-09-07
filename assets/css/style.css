@@ -1,11 +1,40 @@
 h1 {
-    color:#ff9718;
+  color: #ff9718;
 }
 
 body {
-    overflow-x:hidden;
+  overflow-x: hidden;
 }
 .nav-link {
-    color: #5f7c8d !important;
-    font-size: large;
+  color: #5f7c8d !important;
+  font-size: large;
+}
+
+.hero {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+}
+
+.strawberries-text {
+    background-color: #5f7c8d;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-overlay {
+    top: 75px;
+    left: 20px;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+  }
 }
