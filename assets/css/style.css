@@ -26,8 +26,23 @@ body {
 }
 
 .strawberries-text {
-    background-color: #5f7c8d;
-    color: #fff;
+  padding-top: 70px;
+  background-color: #5f7c8d;
+  color: #fff;
+  font-size: 30px;
+}
+
+.strawberries-button {
+  background-color: #fff;
+  color: #5f7c8d;
+  margin-top: 50px;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 600px;
 }
 
 @media only screen and (max-width: 768px) {
