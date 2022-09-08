@@ -37,12 +37,39 @@ body {
   color: #5f7c8d;
   margin-top: 50px;
 }
+.signup-section {
+    padding-top: 50px;
+}
 
 #mc_embed_signup {
   background: #fff;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
   width: 600px;
+}
+
+.form-text {
+    color: #5f7c8d;
+    font-weight: bolder;
+}
+
+.signup-text {
+    color: #5f7c8d;
+    font-size: 30px;
+}
+
+#mc_embed_signup .button {
+    background-color: #5f7c8d;
+}
+
+.small-print {
+    font-size: xx-small;
+    color: #5f7c8d;
+}
+
+.small-print>a {
+    text-decoration: underline;
+    color: #5f7c8d;
 }
 
 @media only screen and (max-width: 768px) {
