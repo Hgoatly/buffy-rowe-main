@@ -112,4 +112,8 @@ body {
   .signup-text {
       font-size: 20px;
   }
+
+  #mc_embed_signup {
+      width: 300px;
+  }
 }
