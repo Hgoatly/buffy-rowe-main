@@ -73,11 +73,25 @@ body {
 }
 
 .bant-logo {
-    padding-top: 25%;
+    padding-top: 10%;
+    width: 230px;
 }
 
 .nced-logo {
-    padding-top: 30%;
+    padding-bottom: 10%;
+    width: 230px;
+}
+
+.social-media {
+    background-color: #5f7c8d;
+}
+
+.social-media-icon {
+    color: #fff;
+}
+
+.footer-links>p>a {
+    color: #5f7c8d;
 }
 
 @media only screen and (max-width: 768px) {
