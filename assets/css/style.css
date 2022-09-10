@@ -114,6 +114,6 @@ body {
   }
 
   #mc_embed_signup {
-      width: 300px;
+      width: 300px !important;
   }
 }
