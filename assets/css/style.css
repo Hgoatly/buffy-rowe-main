@@ -72,11 +72,30 @@ body {
     color: #5f7c8d;
 }
 
+.bant-logo {
+    padding-top: 25%;
+}
+
+.nced-logo {
+    padding-top: 30%;
+}
+
 @media only screen and (max-width: 768px) {
   .text-overlay {
     top: 75px;
     left: 20px;
     font-size: 1.3rem;
     padding: 1.2rem;
+  }
+
+  .strawberries-text {
+    padding-top: 30px;
+    background-color: #5f7c8d;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .signup-text {
+      font-size: 20px;
   }
 }
