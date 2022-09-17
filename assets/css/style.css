@@ -39,7 +39,7 @@ body {
   margin-top: 50px;
 }
 .signup-section {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 #mc_embed_signup {
@@ -50,49 +50,63 @@ body {
 }
 
 .form-text {
-    color: #5f7c8d;
-    font-weight: bolder;
+  color: #5f7c8d;
+  font-weight: bolder;
 }
 
 .signup-text {
-    color: #5f7c8d;
-    font-size: 30px;
+  color: #5f7c8d;
+  font-size: 30px;
 }
 
 #mc_embed_signup .button {
-    background-color: #5f7c8d;
+  background-color: #5f7c8d;
 }
 
 .small-print {
-    font-size: xx-small;
-    color: #5f7c8d;
+  font-size: xx-small;
+  color: #5f7c8d;
 }
 
-.small-print>a {
-    text-decoration: underline;
-    color: #5f7c8d;
+.small-print > a {
+  text-decoration: underline;
+  color: #5f7c8d;
+}
+
+.cnhc-logo {
+  padding-top: 10%;
+  width: 150px;
+  height: fit-content;
 }
 
 .bant-logo {
-    padding-top: 10%;
-    width: 230px;
+  padding-top: 10%;
+  width: 150px;
+  height: fit-content;
 }
 
 .nced-logo {
-    padding-bottom: 10%;
-    width: 230px;
+  padding-bottom: 10%;
+  width: 150px;
+  height: fit-content;
+}
+
+.zest-4-life-logo {
+  padding-bottom: 10%;
+  width: 150px;
+  height: fit-content;
 }
 
 .social-media {
-    background-color: #5f7c8d;
+  background-color: #5f7c8d;
 }
 
 .social-media-icon {
-    color: #fff;
+  color: #fff;
 }
 
-.footer-links>p>a {
-    color: #5f7c8d;
+.footer-links > p > a {
+  color: #5f7c8d;
 }
 
 @media only screen and (max-width: 768px) {
@@ -111,11 +125,11 @@ body {
   }
 
   .signup-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   #mc_embed_signup {
-      width: 300px !important;
-      margin-left: 20px ;
+    width: 300px !important;
+    margin-left: 20px;
   }
 }
