@@ -73,6 +73,28 @@ body {
   color: #5f7c8d;
 }
 
+/* About Page */
+
+.text-overlay-about {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  right: 100px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+  -webkit-backdrop-filter: blur(14px) brightness(80%);
+}
+
+.about-text {
+  background-color: #fff;
+  color:#5f7c8d;
+}
+
+/* logos */
+
 .cnhc-logo {
   padding-top: 10%;
   width: 150px;
@@ -116,7 +138,15 @@ body {
     padding: 1.2rem;
   }
 
-  .strawberries-text {
+  .text-overlay-about {
+    top: 75px;
+    left: 20px;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+  }
+
+  .strawberries-text,
+  .about-intro-text {
     padding-top: 30px;
     background-color: #5f7c8d;
     color: #fff;
@@ -131,4 +161,33 @@ body {
     width: 300px !important;
     margin-left: 20px;
   }
+
+  /* logos */
+
+  .cnhc-logo {
+    padding-top: 10%;
+    width: 230px;
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+  
+  .bant-logo {
+    padding-top: 10%;
+    width: 230px;
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+  
+  .nced-logo {
+    width: 230px;
+    height: fit-content;
+    padding-bottom: 10%;
+  }
+  
+  .zest-4-life-logo {
+    padding-bottom: 10%;
+    width: 230px;
+    height: fit-content;
+  }
+  
 }
