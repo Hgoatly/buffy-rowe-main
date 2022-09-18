@@ -93,6 +93,15 @@ body {
   color:#5f7c8d;
 }
 
+.about-text-large {
+  font-size: 20px;
+}
+
+.professional-background {
+  background-color: #5f7c8d;
+  color: #fff;
+}
+
 /* logos */
 
 .cnhc-logo {
@@ -162,6 +171,11 @@ body {
     margin-left: 20px;
   }
 
+  /* about section */
+
+  .professional-background-header {
+    font-size: 24px;
+  }
   /* logos */
 
   .cnhc-logo {
