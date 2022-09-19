@@ -108,6 +108,19 @@ body {
   padding-bottom: 50px;
   }
 
+.text-overlay-programmes {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  right: 100px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+  -webkit-backdrop-filter: blur(14px) brightness(80%);
+}  
+
 /* logos */
 
 .cnhc-logo {
@@ -157,6 +170,12 @@ body {
     top: 75px;
     left: 20px;
     font-size: 1.3rem;
+    padding: 1.2rem;
+  }
+
+  .text-overlay-programmes {
+    top: 80px;
+    font-size: 1rem;
     padding: 1.2rem;
   }
 
