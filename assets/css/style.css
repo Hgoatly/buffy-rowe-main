@@ -108,6 +108,8 @@ body {
   padding-bottom: 50px;
   }
 
+  /* Programmes */
+
 .text-overlay-programmes {
   position: absolute;
   top: 500px;
@@ -120,6 +122,18 @@ body {
   backdrop-filter: blur(14px) brightness(80%);
   -webkit-backdrop-filter: blur(14px) brightness(80%);
 }  
+
+.basic {
+  background-color: #B4CFEC;
+}
+
+.comprehensive {
+  background-color: #728FCE;
+}
+
+.ultimate {
+  background-color: #5f7c8d
+}
 
 /* logos */
 
