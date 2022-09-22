@@ -112,7 +112,7 @@ body {
 
 .text-overlay-programmes {
   position: absolute;
-  top: 500px;
+  top: 375px;
   left: 100px;
   right: 100px;
   padding: 2rem;
@@ -264,6 +264,19 @@ body {
     backdrop-filter: blur(14px) brightness(80%);
     -webkit-backdrop-filter: blur(14px) brightness(80%);
   }
+
+  .text-overlay-programmes {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    right: 100px;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    backdrop-filter: blur(14px) brightness(80%);
+    -webkit-backdrop-filter: blur(14px) brightness(80%);
+  }  
 
   .about-text-large {
     font-size: 24px;
