@@ -124,16 +124,26 @@
     </div>
     <!-- End of navbar -->
 
-    <form id="contact-form">
+    <!-- <form id="contact-form">
         <input type="hidden" name="contact_number">
         <label>Name</label>
-        <input type="text" name="user_name">
+        <input type="text" name="user_name" id="name">
         <label>Email</label>
-        <input type="email" name="user_email">
+        <input type="email" name="user_email" id="email">
         <label>Message</label>
         <textarea name="message"></textarea>
         <input type="submit" value="Send">
-    </form>
+    </form> -->
+
+    <form id="contact-form" name="contact-form">
+        <input type="hidden" name="contact_number">
+          <input type="text" name="user_name" id="name" required="" placeholder="Name" class="form-control mb-2">
+          <input type="email" name="user_email" id="email" class="form-control mb-2" placeholder="Email" required="">
+          <textarea name="message" id="enquiry" class="form-control" placeholder="Your enquiry" required="" rows="5"></textarea>
+          <div class="text-center">
+          <input type="submit" value="Send" class="mt-3 btn submit-btn">
+        </div>
+      </form>
 
     <!-- Logos -->
     <div class="row pt-5 mx-5 mt-md-5 d-flex align-items-center">
