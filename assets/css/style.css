@@ -135,6 +135,32 @@ body {
   background-color: #5f7c8d
 }
 
+/* Contact */
+
+.text-overlay-contact {
+  position: absolute;
+  top: 600px;
+  left: 450px;
+  right: 450px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+  -webkit-backdrop-filter: blur(14px) brightness(80%);
+}
+
+.contact-text-block-1 {
+  padding-top: 70px;
+  background-color: #5f7c8d;
+  color: #fff;
+  font-size: 30px;
+}
+
+.contact-text-block-2 {
+  
+}
+
 /* logos */
 
 .cnhc-logo {
