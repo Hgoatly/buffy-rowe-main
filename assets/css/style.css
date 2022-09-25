@@ -246,6 +246,10 @@ body {
     font-size: 20px;
   }
 
+  .policies-section {
+    padding: 60px 0;
+  }
+
   .signup-text {
     font-size: 20px;
   }
@@ -271,27 +275,27 @@ body {
   .cnhc-logo {
     padding-top: 10%;
     width: 230px;
-    height: fit-content;
+    /* height: fit-content; */
     padding-bottom: 10%;
   }
   
   .bant-logo {
     padding-top: 10%;
     width: 230px;
-    height: fit-content;
+    /* height: fit-content; */
     padding-bottom: 10%;
   }
   
   .nced-logo {
     width: 230px;
-    height: fit-content;
+    /* height: fit-content; */
     padding-bottom: 10%;
   }
   
   .zest-4-life-logo {
     padding-bottom: 10%;
     width: 230px;
-    height: fit-content;
+    /* height: fit-content; */
   }
   
 }
