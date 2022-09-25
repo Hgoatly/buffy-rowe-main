@@ -139,7 +139,7 @@ body {
 
 .text-overlay-contact {
   position: absolute;
-  top: 600px;
+  top: 200px;
   left: 450px;
   right: 450px;
   padding: 2rem;
@@ -158,7 +158,9 @@ body {
 }
 
 .contact-text-block-2 {
-  
+  background-color: #fff;
+  color:#5f7c8d;
+  font-size: 30px;
 }
 
 /* logos */
