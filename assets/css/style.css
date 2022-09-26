@@ -180,6 +180,26 @@ body {
   padding: 150px 0 150px 0;
 }
 
+ /* testimonials */
+
+ .carousel-control-next,
+ .carousel-control-prev,
+ .carousel-indicators/*, .carousel-indicators */ {
+     filter: invert(100%);
+ }
+
+ /* .carousel-control-next {
+   left: 800px;
+ }
+
+ .carousel-control-prev {
+   left: -120px;
+ } */
+
+ .carousel-item>p {
+   padding: 0 100px;
+ }
+
 /* logos */
 
 .cnhc-logo {
@@ -270,6 +290,7 @@ body {
     font-size: 16px;
     padding-bottom: 50px;
     }
+
   /* logos */
 
   .cnhc-logo {
