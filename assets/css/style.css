@@ -279,6 +279,10 @@ body {
     font-size: 20px;
   }
 
+  .contact-text-block-2 {
+    font-size: 20px;
+  }
+
   .policies-section {
     padding: 60px 0;
   }
@@ -335,6 +339,19 @@ body {
 }
 
 @media only screen and (min-width: 1400px) {
+
+  .text-overlay {
+    position: absolute;
+    top: 375px;
+    left: 100px;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #fff;
+    backdrop-filter: blur(14px) brightness(80%);
+    -webkit-backdrop-filter: blur(14px) brightness(80%);
+  }
+
   .text-overlay-about {
     position: absolute;
     top: 750px;
@@ -373,6 +390,14 @@ body {
     backdrop-filter: blur(14px) brightness(80%);
     -webkit-backdrop-filter: blur(14px) brightness(80%);
   }  
+
+  .strawberries-text {
+    padding-top: 250px;
+  }
+
+  .signup-section {
+    padding-top: 200px;
+  }
 
   .about-text-large {
     font-size: 24px;
