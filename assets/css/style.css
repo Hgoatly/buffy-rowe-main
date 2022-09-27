@@ -188,18 +188,23 @@ body {
      filter: invert(100%);
  }
 
- /* .carousel-control-next {
-   left: 800px;
- }
-
- .carousel-control-prev {
-   left: -120px;
- } */
-
  .carousel-item>p {
    padding: 0 100px;
    color:#5f7c8d;
  }
+
+ .text-overlay-testimonials {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  right: 100px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+  -webkit-backdrop-filter: blur(14px) brightness(80%);
+}  
 
 /* logos */
 
@@ -259,6 +264,13 @@ body {
     padding: 1.2rem;
   }
 
+  .text-overlay-testimonials {
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    padding: 1.2rem;
+    font-size: 1rem;
+  }  
   .strawberries-text,
   .about-intro-text {
     padding-top: 30px;
@@ -339,6 +351,19 @@ body {
   .text-overlay-programmes {
     position: absolute;
     top: 500px;
+    left: 100px;
+    right: 100px;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    backdrop-filter: blur(14px) brightness(80%);
+    -webkit-backdrop-filter: blur(14px) brightness(80%);
+  }  
+
+  .text-overlay-testimonials {
+    position: absolute;
+    top: 375px;
     left: 100px;
     right: 100px;
     padding: 2rem;
