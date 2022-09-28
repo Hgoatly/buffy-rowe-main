@@ -246,9 +246,8 @@ body {
   color: #5f7c8d;
 }
 /* 404 */
-
-.error-text {
- color:#5f7c8d;
+.error-page {
+  height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
