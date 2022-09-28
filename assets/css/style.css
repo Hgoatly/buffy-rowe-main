@@ -211,24 +211,27 @@ body {
 .cnhc-logo {
   padding-top: 10%;
   width: 150px;
-  height: fit-content;
 }
 
 .bant-logo {
-  padding-top: 10%;
+  padding-top: 25%;
   width: 150px;
-  height: fit-content;
+  
 }
 
 .nced-logo {
+  padding-top: 25%;
   width: 150px;
-  height: fit-content;
 }
 
 .zest-4-life-logo {
   padding-bottom: 10%;
   width: 150px;
-  height: fit-content;
+}
+
+.understanding-your-eating-logo {
+  padding-top: 25%;
+  width: 150px;
 }
 
 .social-media {
