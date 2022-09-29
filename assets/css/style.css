@@ -255,6 +255,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
   .text-overlay {
     top: 75px;
     left: 20px;
@@ -337,14 +338,18 @@ body {
   
   .nced-logo {
     width: 230px;
-    /* height: fit-content; */
     padding-bottom: 10%;
+    padding-top: 0;
   }
   
   .zest-4-life-logo {
     padding-bottom: 10%;
     width: 230px;
-    /* height: fit-content; */
+  }
+  .understanding-your-eating-logo {
+    padding-top: 0;
+    width: 250px;
+    padding-right: 20px;
   }
   
 }
