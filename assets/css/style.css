@@ -10,6 +10,12 @@ body {
   position: relative;
 }
 
+.talks-hero {
+  position: relative;
+  height: 300px;
+  background-color: #ff7404;
+}
+
 .text-overlay {
   position: absolute;
   top: 200px;
@@ -245,6 +251,22 @@ body {
 .footer-links > p > a {
   color: #5f7c8d;
 }
+
+/* Talks and Workshops */
+
+.text-overlay-talks {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  right: 100px;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  backdrop-filter: blur(14px) brightness(80%);
+  -webkit-backdrop-filter: blur(14px) brightness(80%);
+}
+
 /* 404 */
 .error-page {
   height: 60vh;
@@ -289,6 +311,19 @@ body {
     background-color: #5f7c8d;
     color: #fff;
     font-size: 20px;
+  }
+
+  .talks-intro-text {
+    padding-top: 30px;
+    background-color: #ff7404;;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .talks-text {
+    color: #5f7c8d;
+    background-color: #fff;
+    margin-top: 20px;
   }
 
   .contact-text-block-2 {
