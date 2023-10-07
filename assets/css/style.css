@@ -267,6 +267,28 @@ body {
   -webkit-backdrop-filter: blur(14px) brightness(80%);
 }
 
+table, th, tr, td {
+  border: 1px solid #5f7c8d;
+  border-collapse: collapse;
+}
+
+table {
+  width: 90%;
+}
+
+th {
+  background-color: #5f7c8d;
+  color: #fff;
+}
+
+td {
+  color:#5f7c8d;
+}
+
+th, td {
+  height: 50px;
+}
+
 /* 404 */
 .error-page {
   height: 60vh;
@@ -457,6 +479,7 @@ body {
   .about-text-body {
     font-size: 20px;
     margin-top: 50px;
+    color:#5f7c8d;
   }
 
   .about-text {
