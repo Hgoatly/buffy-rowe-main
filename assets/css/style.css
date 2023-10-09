@@ -232,6 +232,11 @@ body {
 
 .zest-4-life-logo {
   padding-bottom: 10%;
+  width: 130px;
+}
+
+.fuyh-logo {
+  padding-top: 25%;
   width: 150px;
 }
 
@@ -398,10 +403,16 @@ th, td {
     padding-bottom: 10%;
     padding-top: 0;
   }
+
+  .fuyh-logo {
+    padding-bottom: 10%;
+    width: 230px;
+    padding-top: 0;
+  }
   
   .zest-4-life-logo {
     padding-bottom: 10%;
-    width: 230px;
+    width: 190px;
   }
   .understanding-your-eating-logo {
     padding-top: 0;
