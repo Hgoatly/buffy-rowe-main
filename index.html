@@ -138,13 +138,19 @@
           Is there a niggling health concern that is causing you uncomfortable or
           distressing symptoms?
         </p>
-        <p class="mx-5 mb-5">
-          Book a free 30 minute call,<br/> to see how I can help you.
+        <p class="mx-5 mb-5 text-center">
+          <!-- Calendly link widget begin -->
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          <a href="" class="btn book-call-button"  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/buffy-nutrition/30-minute-check-in'});return false;">Book your call now</a>
+          <!-- Calendly link widget end --> 
         </p>
+        <a href="#free-book" style="text-decoration:none; color: #fff;">
         <p class="mx-5 mb-2 text-center">FREE E-BOOK DOWNLOAD</p>
         <p class="mx-5 mb-5 text-center" style="font-size: 22px">
           'How to feel really well and thrive peacefully'
         </p>
+      </a>
       </div>
       <div class="col-12 col-md-6 px-0">
         <img
@@ -164,20 +170,22 @@
           Is there a niggling health concern that is causing you uncomfortable or
           distressing symptoms?
         </p>
-        <p class="mx-5 mb-5">
-          Book a <!-- Calendly link widget begin -->
+        <p class="mx-5 mb-5 text-center">
+          <!-- Calendly link widget begin -->
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-          <a href="" style="color:#fff" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/buffy-nutrition/30-minute-check-in'});return false;">free 30 minute call</a>
-          <!-- Calendly link widget end --> to see how I can help you.
+          <a href="" class="btn book-call-button"  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/buffy-nutrition/30-minute-check-in'});return false;">Book your call now</a>
+          <!-- Calendly link widget end --> 
         </p>
+        <a href="#free-book" style="text-decoration:none; color: #fff;">
         <p class="mx-5 mb-2 text-center">FREE E-BOOK DOWNLOAD</p>
         <p class="mx-5 mb-5 text-center" style="font-size: 22px">
           'How to feel really well and thrive peacefully'
         </p>
+      </a>
       </div>
     </section>
-    <section class="row pt-2">
+    <section class="row pt-2" id="free-book">
       <div class="col-12 col-md-6 w-100 signup-section">
         <p class="signup-text mx-5">
           Are you struggling to find a healthy balance?

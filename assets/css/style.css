@@ -40,6 +40,18 @@ body {
   color: #5f7c8d;
   margin-top: 50px;
 }
+
+.book-call-button {
+  color:#5a738d; 
+  background-color: #fff; 
+  font-size: 30px;
+}
+
+.book-call-button:hover {
+  color: #fff; 
+  background-color: #5a738d; 
+}
+
 .signup-section {
   padding-top: 50px;
 }
@@ -338,6 +350,17 @@ th, td {
     background-color: #5f7c8d;
     color: #fff;
     font-size: 20px;
+  }
+
+  .book-call-button {
+    color:#5a738d; 
+    background-color: #fff; 
+    font-size: 20px;
+  }
+  
+  .book-call-button:hover {
+    color: #fff; 
+    background-color: #5a738d; 
   }
 
   .talks-intro-text {
