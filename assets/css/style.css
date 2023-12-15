@@ -284,6 +284,17 @@ body {
   -webkit-backdrop-filter: blur(14px) brightness(80%);
 }
 
+.book-call-button-talks-workshops {
+  color: #fff;
+  background-color: #5a738d;
+  font-size: 30px;
+}
+
+.book-call-button-talks-workshops:hover {
+  color:#5a738d; 
+  background-color: #fff; 
+}
+
 table, th, tr, td {
   border: 1px solid #5f7c8d;
   border-collapse: collapse;
@@ -361,6 +372,17 @@ th, td {
   .book-call-button:hover {
     color: #fff; 
     background-color: #5a738d; 
+  }
+
+  .book-call-button-talks-workshops {
+    color: #fff;
+    background-color: #5a738d;
+    font-size: 20px;
+  }
+
+  .book-call-button-talks-workshops:hover {
+    color:#5a738d; 
+    background-color: #fff;
   }
 
   .talks-intro-text {
