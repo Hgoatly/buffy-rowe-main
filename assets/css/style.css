@@ -53,8 +53,8 @@ body {
 }
 
 .signup-section {
-  padding-top: 50px;
-}
+  padding-top: 50px; 
+} 
 
 #mc_embed_signup {
   background: #fff;
@@ -525,8 +525,8 @@ th, td {
   }
 
   .signup-section {
-    padding-top: 200px;
-  }
+    padding-top: 50px;
+  } 
 
   .about-text-large {
     font-size: 24px;
