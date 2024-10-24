@@ -520,9 +520,9 @@ th, td {
     -webkit-backdrop-filter: blur(14px) brightness(80%);
   }  
 
-  .strawberries-text {
+ /* .strawberries-text {
     padding-top: 250px;
-  }
+  } */
 
   .signup-section {
     padding-top: 50px;
