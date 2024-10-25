@@ -224,6 +224,9 @@ body {
   -webkit-backdrop-filter: blur(14px) brightness(80%);
 }  
 
+.video {
+  margin-top: -100px !important;
+}
 /* logos */
 
 .cnhc-logo {
@@ -534,11 +537,15 @@ th, td {
 
   .about-text-body {
     font-size: 20px;
-    margin-top: 50px;
+  /*  margin-top: 50px; */
     color:#5f7c8d;
   }
 
-  .about-text {
+ /* .about-text {
     padding-top: 70px;
+  } */
+
+  .video {
+    margin-top: 115px;
   }
 }
