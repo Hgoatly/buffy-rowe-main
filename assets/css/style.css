@@ -18,10 +18,10 @@ body {
 
 .text-overlay {
   position: absolute;
-  top: 200px;
-  left: 100px;
+  top: 73%;
+ /* left: 100px; */
   padding: 2rem;
-  font-size: 4rem;
+  font-size: 45px;
   font-weight: 300;
   color: #fff;
   backdrop-filter: blur(14px) brightness(80%);
