@@ -53,7 +53,7 @@ body {
 }
 
 .signup-section {
-  padding-top: 50px; 
+  padding-top: 20px; 
 } 
 
 #mc_embed_signup {
@@ -71,6 +71,7 @@ body {
 .signup-text {
   color: #5f7c8d;
   font-size: 30px;
+  margin-top: 30px;
 }
 
 #mc_embed_signup .button {
@@ -467,6 +468,11 @@ th, td {
   
 }
 
+@media only screen and (min-width: 1100px) {
+
+  
+}
+
 @media only screen and (min-width: 1400px) {
 
   .text-overlay {
@@ -520,6 +526,9 @@ th, td {
     -webkit-backdrop-filter: blur(14px) brightness(80%);
   }  
 
+  .live-your-life-text {
+    font-size: 1rem;
+  }
  /* .strawberries-text {
     padding-top: 250px;
   } */
